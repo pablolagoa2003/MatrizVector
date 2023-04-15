@@ -20,7 +20,7 @@ public class Dia11Ej05Extra {
         //hacer una matriz fila 10 y 5 columnas nombres y 4 notas
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
-        int K=0;
+       
         
        // System.out.println("Ingresa tu nombre");
         int[][] M= new int [3][4];
@@ -36,7 +36,7 @@ public class Dia11Ej05Extra {
         }
         
       
-      }
+      }//para imprimir la matriz
         /*for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 4; j++) {
                 System.out.print("["+M[i][j]+ "]");
